@@ -1,0 +1,1315 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/* CSS Document */
+body{
+	overflow-x: hidden;
+}
+
+/*Navigation Bar*/
+.navbarcontents{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 12px;
+	position: absolute;
+	width: 100%;
+	height: 111px;
+	left: 0px;
+	top: 0px;
+	
+	box-sizing: border-box;
+
+	background: #FF9038;
+	border-bottom: 2px solid #000000;
+}
+
+.navbarlogo{
+	position: absolute;
+	width: 101px;
+	height: 85px;
+	left: 122px;
+	top: 13px;
+}
+
+.navbarlist{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+	position: absolute;
+	width: 529px;
+	height: 56px;
+	left: 65%;
+	top: 28.5px;
+	list-style-type: none;
+}
+
+.navbarlist a{
+	display: flex;
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 36px;
+	
+}
+
+
+/*Hero Contents*/
+.hero{
+	position: absolute;
+	width: 100%;
+	height: 633px;
+	left: 5%;
+	top: 196px;
+}
+
+/*Hero Texts container*/
+.herotexts{
+	position: absolute;
+	width: 40vw;
+	height: 80%;
+	left: 122px;
+}
+
+.herotitle{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.herotitle p{
+	position: absolute;
+	width: 588px;
+	left: -20%;
+
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 86px;
+	/* or 143% */
+
+	color: #FFFFFF;
+}
+
+/*learnmorebuttonmainhero*/
+.learnmorehero{
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 40%;
+	height: 15%;
+	left: -20%;
+	top: 100%;
+
+	background: #FFFFFF;
+	border: 3px solid #000000;
+	border-radius: 20px;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	
+}
+
+/*bgtext*/
+.herobg{
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	left: -15%;
+
+
+	background: #FF9038;
+	border-radius: 0px 50px 5px 0px;
+}
+
+/*mclimage*/
+.heromcl{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 2.5%;
+}
+
+
+/*Motorsports Title*/
+.mtrpsrtsnteams{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	top: 105%;
+
+	background: #FFFFFF;
+}
+
+.mtrpsrtsnteams p{
+	
+	width: 75%;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	/* identical to box height, or 108% */
+
+	text-align: center;
+
+	color: #000000;
+	border-bottom: 5px solid #000000;
+
+}
+
+
+/*F1 Hero*/
+.f1hero{
+
+}
+/*f1herotextbg*/
+.f1herobg{
+	position: absolute;
+	width: 90%;
+	height: 30%;
+	left: -57px;
+	top: 1178px;
+
+	background: #FF9038;
+	border: 3px solid #000000;
+	border-radius: 20px;
+}
+
+/*f1hero mcl pic*/
+.f1heropic{
+	position: absolute;
+	width: 35%;
+	height: 35%;
+	left: 820px;
+	top: 1194px;
+}
+
+/*F1 title container*/
+.f1title{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px 0px 5px;
+
+	position: absolute;
+	width: 20%;
+	height: 8%;
+	left: 13%;
+	top: 1194.19px;
+
+	background: #9CDBFF;
+	border-width: 0px 5px 5px 0px;
+	border-style: solid;
+	border-color: #07DDFF;
+	border-radius: 10px;
+}
+
+/*Formula 1 title text*/
+.f1titlemain{
+	/* Formula 1 */
+	width: 100%;
+	height: 100%;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 86px;
+	/* or 143% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*F1 hero drivers*/
+.f1herodrivers{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 13%;
+	top: 1285px;
+
+}
+
+/*f1herolando autolayout*/
+.f1herolandoal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 5px;
+
+	width: 17%;
+	height: 7%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Lando Norris Hero*/
+.f1herolando{
+	/* Lando Norris */
+
+	width: 346px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*f1herooscar autolayout*/
+.f1herooscaral{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 5px;
+	gap: 10px;
+
+	width: 17%;
+	height: 7%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*Oscar Piastri Hero*/
+.f1herooscar{
+	width: 243px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.learnmorebtnf1{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5px;
+
+	position: absolute;
+	width: 14%;
+	height: 67.78px;
+	left: 212px;
+	top: 1502px;
+
+	background: #1B1322;
+	border-radius: 20px;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 86px;
+
+	/* identical to box height, or 269% */
+	color: #FFFFFF;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+
+/*FE Hero*/
+
+/*f1herotextbg*/
+.feherobg{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	left: 190px;
+	top: 1613px;
+
+	background: #FF9038;
+	border:3px solid #000000;
+	border-radius: 20px 0px 0px 20px;
+}
+
+/*f1hero mcl pic*/
+.feheropic{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 212px;
+	top: 1629px;
+}
+
+/*FE title container*/
+.fetitle{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px 0px 5px;
+
+	position: absolute;
+	width: 20%;
+	height: 8%;
+	left: 1063px;
+	top: 1629px;
+
+	background: #9CDBFF;
+	border-width: 0px 5px 5px 0px;
+	border-style: solid;
+	border-color: #07DDFF;
+	border-radius: 10px;
+}
+
+/*Formula E title text*/
+.fetitlemain{
+	width: 349px;
+	height: 90px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 86px;
+	/* or 143% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*FE hero drivers*/
+.feherodrivers{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 1130px;
+	top: 1718px;
+
+}
+
+/*f1herojake autolayout*/
+.feherojakeal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0px 5px;
+
+	width: 17%;
+	height: 7%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Jake Hero*/
+.feherojake{
+	/* Lando Norris */ 
+	width: 275px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+	
+	text-align: right;
+	
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*f1herorene autolayout*/
+.feheroreneal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px 5px;
+
+	width: 17%;
+	height: 7%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*Rene Hero*/
+.feherorene{
+	width: 194px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.learnmorebtnfe{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5px;
+
+	position: absolute;
+	width: 14%;
+	height: 67px;
+	left: 1185px;
+	top: 1947px;
+
+	background: #1B1322;
+	border-radius: 20px;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 86px;
+
+	/* identical to box height, or 269% */
+	color: #FFFFFF;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*IndyCar Hero*/
+
+/*indyherotextbg*/
+.indyherobg{
+	position: absolute;
+	width: 90.5%;
+	height: 47%;
+	left: -57px;
+	top: 2093px;
+
+	background: #FF9038;
+	border: 3px solid #000000;
+	border-radius: 20px;
+}
+
+/*indyhero mcl pic*/
+.indyheropic{
+	position: absolute;
+	width: 35%;
+	height: 55%;
+	left: 820px;
+	top: 2112px;
+}
+
+/*IndyCar title container*/
+.indytitle{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px 0px 5px;
+
+	position: absolute;
+	width: 20%;
+	height: 8%;
+	left: 13%;
+	top: 2112px;
+
+	background: #9CDBFF;
+	border-width: 0px 5px 5px 0px;
+	border-style: solid;
+	border-color: #07DDFF;
+	border-radius: 10px;
+}
+
+/*IndyCar title text*/
+.indytitlemain{
+	width: 100%;
+	/*height: 90px;*/
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 86px;
+	/* or 143% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*IndyCar hero drivers*/
+.indyherodrivers{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 212px;
+	top: 2191px;
+
+}
+
+/*indyheropato autolayout*/
+.indyheropatoal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px 5px;
+	gap: 10px;
+
+	width: 26%;
+	height: 9%;
+
+	border-bottom: 5px solid #FFF8F8;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Pato Hero*/
+.indyheropato{
+	/* Lando Norris */ 
+	width: 413px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 30px;
+	/* identical to box height, or 215% */
+	
+	text-align: right;
+	
+	color: #000000;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*indyheroalex autolayout*/
+.indyheroalexal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px 5px;
+	gap: 10px;
+
+	width: 20%;
+	height: 9%;
+
+	border-bottom: 5px solid #FFF8F8;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*Alex Hero*/
+.indyheroalex{
+	width: 306px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 30px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.indyherofelixal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px 5px;
+	gap: 10px;
+
+	width: 325px;
+	height: 80px;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+/*Alex Hero*/
+.indyherofelix{
+	width: 315px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 30px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.indyherotonyal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px 5px;
+	gap: 10px;
+
+	width: 257px;
+	height: 80px;
+	border-bottom: 5px solid #FFF8F8;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+}
+
+/*Alex Hero*/
+.indyherotony{
+	width: 247px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 30px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.learnmorebtnindy{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5px;
+
+	position: absolute;
+	width: 223px;
+	height: 67px;
+	left: 217px;
+	top: 2580px;
+
+	background: #1B1322;
+	border-radius: 20px;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 86px;
+
+	/* identical to box height, or 269% */
+	color: #FFFFFF;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Extreme E Hero*/
+
+/*xeherotextbg*/
+.xeherobg{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	left: 190px;
+	top: 2704px;
+
+	background: #FF9038;
+	border: 3px solid #000000;
+	border-radius: 20px 0px 0px 20px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/*xehero mcl pic*/
+.xeheropic{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 212px;
+	top: 2720px;
+}
+
+/*XE title container*/
+.xetitle{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px 0px 5px;
+
+	position: absolute;
+	width: 20%;
+	height: 8%;
+	left: 1063px;
+	top: 2720px;
+
+	background: #9CDBFF;
+	border-width: 0px 5px 5px 0px;
+	border-style: solid;
+	border-color: #07DDFF;
+	border-radius: 10px;
+}
+
+/*Extreme E title text*/
+.xetitlemain{
+	width: 349px;
+	height: 90px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 86px;
+	/* or 143% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*XE hero drivers*/
+.xeherodrivers{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 1129px;
+	top: 2831px;
+}
+
+/*xehero tanner autolayout*/
+.xeherotanneral{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0px 5px;
+
+	width: 17%;
+	height: 6%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Tanner Hero*/
+.xeherotanner{
+	/* Lando Norris */ 
+	width: 346px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+	
+	text-align: right;
+	
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*xeheroemma autolayout*/
+.xeheroemmaal{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px 5px;
+
+	width: 17%;
+	height: 6%;
+
+	border-bottom: 5px solid #FFFFFF;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*Emma Hero*/
+.xeheroemma{
+	width: 271px;
+	height: 86px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 86px;
+	/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.learnmorebtnxe{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5px;
+
+	position: absolute;
+	width: 14%;
+	height: 67px;
+	left: 1180px;
+	top: 3055px;
+
+	background: #1B1322;
+	border-radius: 20px;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 86px;
+
+	/* identical to box height, or 269% */
+	color: #FFFFFF;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Footer*/
+footer{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 26px 304px;
+	gap: 24px;
+
+	position: absolute;
+	width: 100%;
+	height: 322px;
+	left: 0px;
+	top: 3523px;
+
+	background: #FFFFFF;
+	border-top: 2px solid #000000;
+}
+
+.gettoknow{
+	/* Gettoknow */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	gap: 10px;
+
+	width: 100%;
+	height: 10%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	
+	/*Font*/
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 86px;
+/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+}
+
+.socials{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 15%;
+
+	width: 30%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.copyright{
+	/* Copyright */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 10%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	
+	/*Font*/
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 86px;
+	/* identical to box height, or 358% */
+
+
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
