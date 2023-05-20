@@ -73,7 +73,7 @@ footer{
 	width: 100%;
 	height: 322px;
 	left: 0px;
-	top: 3523px;
+	top: 230%;
 
 	background: #FFFFFF;
 	border-top: 2px solid #000000;
@@ -488,7 +488,7 @@ flex-grow: 0;
 	position: absolute;
 	width: 677px;
 	height: 533px;
-	left: 604px;
+	left: 52%;
 	top: 52px;
 }
 
@@ -532,7 +532,7 @@ flex-grow: 0;
 	padding: 10px;
 	gap: 10px;
 
-	width: 629px;
+	width: 108%;
 	height: 441px;
 
 
@@ -554,27 +554,33 @@ flex-grow: 0;
 	color: #000000;
 }
 
+
+
 /*Oscar Piastri*/
 /*Driver 1 Frame*/
-.Driver1{
+.Driver2{
 	position: absolute;
 	width: 1216px;
 	height: 618px;
-	left: 112px;
-	top: 329px;
+	left: 1318px;
+	top: calc(50% - 618px/2 + 512px);
+
+	transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /*Driver Bio Frame 1*/
-.DriverBio1{
+.DriverBio2{
 	position: absolute;
 	width: 1196px;
 	height: 598px;
-	left: 10px;
+	left: 1206px;
 	top: 10px;
+
+	transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /*Statistics*/
-.Statistics1{
+.Statistics2{
 	/* Statistics */
 	
 	/* Auto layout */
@@ -588,14 +594,14 @@ flex-grow: 0;
 	position: absolute;
 	width: 645px;
 	height: 82px;
-	left: -27px;
-	top: 549px;
+	left: 63%;
+	top: 180%;
 
 	filter: drop-shadow(5px 4px 20px rgba(0, 0, 0, 0.25));
 }
 
 /*Wins AL*/
-.WinsAl1{
+.WinsAl2{
 	/* Auto layout */
 
 display: flex;
@@ -621,7 +627,7 @@ flex-grow: 0;
 }
 
 /*Wins*/
-.Wins1{
+.Wins2{
 	width: 72px;
 	height: 64px;
 
@@ -642,7 +648,7 @@ flex-grow: 0;
 }
 
 /*Podiums AL*/
-.PodiumsAl1{
+.PodiumsAl2{
 	/* Auto layout */
 
 	display: flex;
@@ -651,7 +657,7 @@ flex-grow: 0;
 	padding: 10px;
 	gap: 10px;
 
-	width: 125px;
+	width: 126px;
 	height: 82px;
 
 	background: #FF9038;
@@ -668,7 +674,7 @@ flex-grow: 0;
 }
 
 /*Podiums*/
-.Podiums1{
+.Podiums2{
 	width: 110px;
 	height: 64px;
 
@@ -689,7 +695,7 @@ flex-grow: 0;
 }
 
 /*Poles AL*/
-.PolesAl1{
+.PolesAl2{
 	/* Auto layout */
 
 	display: flex;
@@ -715,7 +721,7 @@ flex-grow: 0;
 }
 
 /*Poles*/
-.Poles1{
+.Poles2{
 	width: 72px;
 	height: 64px;
 
@@ -736,7 +742,7 @@ flex-grow: 0;
 }
 
 /*Points AL*/
-.PointsAl1{
+.PointsAl2{
 	/* Auto layout */
 
 	display: flex;
@@ -762,7 +768,7 @@ flex-grow: 0;
 }
 
 /*Points*/
-.Points1{
+.Points2{
 	width: 84px;
 	height: 64px;
 
@@ -783,7 +789,7 @@ flex-grow: 0;
 }
 
 /*Driver Number*/
-.DriverNumber1{
+.DriverNumber2{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -792,10 +798,10 @@ flex-grow: 0;
 	gap: 10px;
 
 	position: absolute;
-	width: 144px;
+	width: 170px;
 	height: 97px;
-	left: 29%;
-	top: -41px;
+	left: 70%;
+	top: 86%;
 
 	background: #FF9038;
 	border: 3px solid #FFFFFF;
@@ -811,31 +817,32 @@ flex-grow: 0;
 }
 
 /*Driver Image*/
-.DriverImg1{
+.DriverImg2{
 	position: absolute;
 	width: 587px;
 	height: 597px;
-	left: 1px;
-	top: 0px;
+	left: 66%;
+	top: 92%;
 }
 
 /*TextBG*/
-.TextBG1{
+.TextBG2{
 	box-sizing: border-box;
 
 	position: absolute;
-	width: 140%;
+	width: 150%;
 	height: 100px;
-	left: -51px;
-	top: 31px;
+	right: -19%;
+	top: 98%;
 
 	background: #FF9038;
 	border: 5px solid #000000;
 	border-radius: 20px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /*Driver Text Name & Biography*/
-.DriverText1{
+.DriverText2{
 	/* Auto layout */
 
 	display: flex;
@@ -847,24 +854,24 @@ flex-grow: 0;
 	position: absolute;
 	width: 677px;
 	height: 533px;
-	left: 604px;
-	top: 52px;
+	left: -4%;
+	top: 100%;
 }
 
 /*Driver Name*/
-.DriverName1{
+.DriverName2{
 	/* Auto layout */
 
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	padding: 0px 41px 0px 10px;
 
-	width: 477px;
+	width: 629px;
 	height: 67px;
 
-	border-left: 10px solid #07DDFF;
+	border-right: 10px solid #07DDFF;
 
 	/* Inside auto layout */
 
@@ -884,15 +891,15 @@ flex-grow: 0;
 }
 
 /*DriverBioTxt*/
-.DriverBioTxt1{
+.DriverBioTxt2{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	padding: 10px;
+	padding: 10px 10px 10px 50px;
 	gap: 10px;
 
-	width: 629px;
-	height: 441px;
+	width: 102%;
+	height: 100%;
 
 
 	/* Inside auto layout */
