@@ -6,6 +6,15 @@ body{
 	overflow-x: hidden;
 }
 
+/*Image Hover animations*/
+img{
+	transition: 0.35s ease-in-out;
+}
+
+img:hover{
+	transform: scale(1.02);
+}
+
 /*Navigation Bar*/
 .navbarcontents{
 	display: flex;
@@ -38,23 +47,32 @@ body{
 	flex-direction: row;
 	align-items: flex-start;
 	padding: 0px;
-	gap: 24px;
+	gap: 6%;
 	position: absolute;
 	width: 529px;
 	height: 56px;
 	left: 65%;
-	top: 28.5px;
-	list-style-type: none;
-}
-
-.navbarlist a{
-	display: flex;
+	top: 15%;
+	
+	/*font*/
+	color:#000000;
 	font-family: 'Space Grotesk';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 28px;
 	line-height: 36px;
-	
+}
+
+.navbarlist a{
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 0px solid #000000;
+	transition: 165ms ease-in-out;
+}
+
+.navbarlist a:hover{
+	border-bottom: 2px solid #000000;
+	transform:scale(107%);
 }
 
 /*Footer*/
@@ -127,12 +145,22 @@ footer{
 
 	width: 30%;
 
-
 	/* Inside auto layout */
 
 	flex: none;
 	order: 1;
 	flex-grow: 0;
+}
+
+/*socials animation*/
+.socials a{
+	transform:scale(0.7);
+	width: 16%;
+	transition: 0.08s ease-in-out;
+}
+
+.socials a:hover{
+	transform:scale(0.78);
 }
 
 .copyright{
