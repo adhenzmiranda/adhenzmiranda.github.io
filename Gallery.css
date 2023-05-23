@@ -1,0 +1,366 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/* CSS Document */
+*{
+	scroll-behavior: smooth;
+	list-style: none;
+	text-decoration:none;
+	color:#000000;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/*Image Hover animations*/
+img{
+	transition: 0.35s ease-in-out;
+}
+
+img:hover{
+	transform: scale(1.02);
+}
+
+/*Footer*/
+.tothetop{
+	border: 5px solid #000000;
+	height:60px;
+	position:absolute;
+	right:10%;
+	top:40%;
+}
+
+footer{
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 26px 304px;
+	gap: 24px;
+
+	position: absolute;
+	width: 100%;
+	height: 322px;
+	left: 0px;
+	top: 1323px;
+
+	background: #FFFFFF;
+	border-top: 2px solid #000000;
+}
+
+.gettoknow{
+	/* Gettoknow */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	gap: 10px;
+
+	width: 100%;
+	height: 10%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	
+	/*Font*/
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 86px;
+/* identical to box height, or 215% */
+
+
+	color: #000000;
+
+}
+
+.socials{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 15%;
+
+	width: 30%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+/*socials animation*/
+.socials a{
+	transform:scale(0.7);
+	width: 16%;
+	transition: 0.08s ease-in-out;
+}
+
+.socials a:hover{
+	transform:scale(0.78);
+}
+
+.copyright{
+	/* Copyright */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 10%;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	
+	/*Font*/
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 86px;
+	/* identical to box height, or 358% */
+
+
+	color: #000000;
+}
+
+/*Navigation Bar*/
+.navbarbg{
+	box-sizing: border-box;
+	position:absolute;
+	width:100%;;
+	height: 111px;
+	left: 0px;
+	top: 0px;
+	background:#FF9038;
+	border-bottom: 2px solid #000000;
+}
+
+/*navbarlist*/
+.navbarlist{
+	margin-bottom:2.7%;
+	z-index: 2;
+}
+
+.navbarcontents a{
+	border-bottom: 0px solid #000000;
+	transition: 185ms ease-in-out;
+}
+
+.navbarcontents ul li a:hover{
+	border-bottom: 2px solid #000000;
+	transform:scale(107%);
+}
+
+.navbarcontents{
+	
+	/*color*/
+	background:#0000ff;
+	color:#000000;
+	
+	/*font*/
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.navbarcontents img{
+	position: absolute;
+	width: 101px;
+	height: 85px;
+	left: 122px;
+	top: 20px;
+}
+
+.navbarcontents ul {
+	color:#000000;
+	position:absolute;
+	padding: 20px;
+	left:60.4%;
+	bottom:85%;
+	list-style-type: none;
+	display: flex;
+	text-align: center;
+	transition: 165ms ease-in-out;
+}
+
+.navbarcontents ul li a{
+	/*positioning*/
+	margin: 0px 20px;
+	width:100%;
+	display: block;
+	
+	/*textandbgcolors*/
+	color:#000000;
+	text-decoration: none;
+	background:#FF9038;
+}
+
+.dropdown a{ 
+	padding-bottom: 20px;
+}
+
+/*dropdown box*/
+.navbarcontents ul li ul {
+	color:#000000;
+	display: none;
+	position:absolute;
+	top:80%;
+	left:15%;
+	transition: 165ms ease-in-out;
+}
+
+.navbarcontents ul li:hover ul {
+	transition: 165ms ease-in-out;
+	display: block;
+	flex-direction: column;
+}
+
+.navbarcontents ul li:hover a {
+	transition: 165ms ease-in-out;
+	color:#000000;
+}
+
+/*dropdown teams*/
+
+/*^^^MAIN TEMPLATE COMPONENTS^^^*/
+
+/*Title and Nav*/
+
+/*Gallery Title*/
+.gallerytitle{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	gap: 10px;
+
+	position: absolute;
+	width: 259px;
+	height: 111px;
+	left: 184px;
+	top: 15%;
+	
+
+}
+
+.gallerytitle p{
+	width: 239px;
+	height: 91px;
+
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 71px;
+	line-height: 91px;
+	/* identical to box height */
+
+
+	color: #000000;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+/*Gallery Navigation*/
+.Gallerynav{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 44px;
+
+	position: absolute;
+	width: 345px;
+	height: 67px;
+	left: 62%;
+	top: 24.5%;
+	
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 61px;
+	letter-spacing: 0.5em;
+
+	color: #000000;
+
+	transition: 0.15s ease-in-out;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Gallerynav img{
+	height:50px;
+}
+
+.Gallerynav img:hover{
+	transform: scale(120%);
+}
+
+.Gallerynav li{
+	transition: 0.15s ease-in-out;
+}
+
+.Gallerynav li:hover{
+	transform: scale(110%);
+}
+
+
+.GalleryPix{
+	position: absolute;
+	width: 70%;
+	height: 85%;
+	right: 15%;
+	top: 40%;
+
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	gap:1%;
+}
+
+.GalleryPix img{
+	width:100%;
+}
+
